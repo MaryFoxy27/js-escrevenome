@@ -1,11 +1,11 @@
 function setup() {
-  createCanvas(600, 600);
-   background("black")
+  createCanvas(400, 400);
+   background("white")
 }
 
 function draw() {
-  stroke("whithe")
-  fill("pink");
+  stroke("bluje")
+  fill("red");
   rect(0, 10, 100, 150);
   
   if (mouseIsPressed) {
